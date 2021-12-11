@@ -6,24 +6,19 @@
   "homePosition": "top-left",
   "mapZoom": true,
   "mapZoomPosition": "top-left",
-  "search": true,
+  "search": false,
   "searchConfiguration": null,
   "searchOpenAtStart": false,
   "searchPosition": "top-right",
   "basemapToggle": false,
   "basemapTogglePosition": "bottom-right",
   "nextBasemap": "topo",
-  "basemapSelector": "",
   "layerList": false,
   "layerListPosition": "bottom-right",
   "screenshot": false,
   "screenshotPosition": "top-left",
-  "enablePopupOption": false,
+  "enablePopupOption": true,
   "enableLegendOption": true,
-  "includeLegendInScreenshot": true,
-  "includePopupInScreenshot": false,
-  "extentSelector": false,
-  "extentSelectorConfig": null,
   "infoPanel": false,
   "infoPanelPosition": "top-left",
   "title": null,
@@ -45,20 +40,47 @@
   "webmap": "default",
   "webscene": "",
   "portalUrl": "https://arcgis.com",
-  "theme": "light",
-  "share": false,
-  "sharePosition": "top-right",
-  "bookmarks": false,
-  "bookmarksPosition": "top-right",
   "oauthappid": "",
   "proxyUrl": "",
   "units": "",
-  "googleAnalytics": false,
-  "googleAnalyticsKey": null,
-  "timeFilter": false,
-  "timeFilterConfig": null,
-  "timeFilterPosition": "bottom-right",
-  "mapA11yDesc": null,
+  "telemetry": {
+    "prod": {
+      "debug": false,
+      "disabled": false,
+      "amazon": {
+        "userPoolID": "us-east-1:7345bcf2-bffa-4849-a379-a83178f63eef",
+        "app": {
+          "name": "InteractiveLegend",
+          "id": "eadf587070d04c86b747a938cc655e76",
+          "version": "1.0"
+        }
+      }
+    },
+    "devext": {
+      "debug": true,
+      "disabled": false,
+      "amazon": {
+        "userPoolID": "us-east-1:7345bcf2-bffa-4849-a379-a83178f63eef",
+        "app": {
+          "name": "InteractiveLegend",
+          "id": "eadf587070d04c86b747a938cc655e76",
+          "version": "1.0"
+        }
+      }
+    },
+    "qaext": {
+      "debug": true,
+      "disabled": false,
+      "amazon": {
+        "userPoolID": "us-east-1:7345bcf2-bffa-4849-a379-a83178f63eef",
+        "app": {
+          "name": "InteractiveLegend",
+          "id": "74ec952cdae444389057fbae08043476",
+          "version": "1.0"
+        }
+      }
+    }
+  },
   "customUrlLayer": {
     "id": null,
     "fields": []
@@ -80,33 +102,5 @@
         "url": null
       }
     ]
-  },
-  "telemetry": {
-    "name": "interactivelegend",
-    "version": "1.0",
-    "prod": {
-      "amazon": {
-        "userPoolID": "us-east-1:8c41b2dc-7563-403d-ba64-673b103debce",
-        "app": {
-          "id": "977e9b0602bb446d8f2fa5a50489d053"
-        }
-      }
-    },
-    "dev": {
-      "amazon": {
-        "userPoolID": "us-east-1:7345bcf2-bffa-4849-a379-a83178f63eef",
-        "app": {
-          "id": "eadf587070d04c86b747a938cc655e76"
-        }
-      }
-    },
-    "qa": {
-      "amazon": {
-        "userPoolID": "us-east-1:7345bcf2-bffa-4849-a379-a83178f63eef",
-        "app": {
-          "id": "74ec952cdae444389057fbae08043476"
-        }
-      }
-    }
   }
 }
