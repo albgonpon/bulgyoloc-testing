@@ -1,19 +1,21 @@
+
+<!DOCTYPE html>
 <html>
 
 <head>
-    <script>
-        function loadHandler() {
-            if (opener) {
-                if (location.hash) {
-                    console.log("Hash location", location.hash);
-                    opener.require("esri/kernel").id.setOAuthResponseHash(location.hash);
-                    close();
-                }
-            } else {
-                close();
-            }
+  <script>
+    function loadHandler() {
+      if (opener) {
+        if (location.hash) {
+          opener.require("esri/kernel").id.setOAuthResponseHash(location.hash);
+          close();
         }
-    </script>
+      }
+      else {
+        close();
+      }
+    }
+  </script>
 </head>
 
 <body onload="loadHandler();">

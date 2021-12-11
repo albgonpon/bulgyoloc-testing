@@ -1,92 +1,45 @@
 {
   "appid": "",
   "group": "",
+  "title": "",
+  "header": true,
+  "logo": null,
+  "logoLink": null,
   "applySharedTheme": true,
-  "home": true,
-  "homePosition": "top-left",
+  "theme": "light",
+  "webmap": "default",
+  "minScale": null,
+  "maxScale": null,
+  "activePanel": null,
+  "details": true,
+  "detailsTitle": null,
+  "detailsContent": null,
+  "legend": true,
+  "bookmarks": false,
+  "bookmarksPosition": "top-right",
+  "popupPanel": false,
+  "popupHover": false,
+  "layoutType": "default",
   "mapZoom": true,
   "mapZoomPosition": "top-left",
-  "search": false,
-  "searchConfiguration": null,
-  "searchOpenAtStart": false,
-  "searchPosition": "top-right",
   "basemapToggle": false,
-  "basemapTogglePosition": "bottom-right",
-  "nextBasemap": "topo",
-  "layerList": false,
-  "layerListPosition": "bottom-right",
-  "screenshot": false,
-  "screenshotPosition": "top-left",
-  "enablePopupOption": true,
-  "enableLegendOption": true,
-  "infoPanel": false,
-  "infoPanelPosition": "top-left",
-  "title": null,
-  "customHeader": false,
-  "headerHTML": null,
-  "splash": false,
-  "splashOnStart": true,
-  "splashTitle": "Splash start",
-  "splashContent": "Splash content",
-  "splashButtonText": "Okay",
-  "splashButtonPosition": "top-right",
-  "customCSS": null,
-  "interactiveLegendPosition": "bottom-left",
-  "filterMode": "featureFilter",
-  "featureCount": false,
-  "updateExtent": false,
-  "muteOpacity": null,
-  "muteGrayScale": null,
-  "webmap": "default",
-  "webscene": "",
-  "portalUrl": "https://arcgis.com",
+  "basemapTogglePosition": "bottom-left",
+  "nextBasemap": "streets",
+  "scalebar": false,
+  "scalebarPosition": "bottom-right",
+  "search": false,
+  "searchOpenAtStart": false,
+  "searchConfiguration": null,
+  "searchPosition": "top-right",
+  "share": true,
+  "shareIncludeSocial": true,
+  "home": false,
+  "homePosition": "top-left",
+  "disableScroll": false,
+  "portalUrl": "https://www.arcgis.com",
   "oauthappid": "",
   "proxyUrl": "",
   "units": "",
-  "telemetry": {
-    "prod": {
-      "debug": false,
-      "disabled": false,
-      "amazon": {
-        "userPoolID": "us-east-1:7345bcf2-bffa-4849-a379-a83178f63eef",
-        "app": {
-          "name": "InteractiveLegend",
-          "id": "eadf587070d04c86b747a938cc655e76",
-          "version": "1.0"
-        }
-      }
-    },
-    "devext": {
-      "debug": true,
-      "disabled": false,
-      "amazon": {
-        "userPoolID": "us-east-1:7345bcf2-bffa-4849-a379-a83178f63eef",
-        "app": {
-          "name": "InteractiveLegend",
-          "id": "eadf587070d04c86b747a938cc655e76",
-          "version": "1.0"
-        }
-      }
-    },
-    "qaext": {
-      "debug": true,
-      "disabled": false,
-      "amazon": {
-        "userPoolID": "us-east-1:7345bcf2-bffa-4849-a379-a83178f63eef",
-        "app": {
-          "name": "InteractiveLegend",
-          "id": "74ec952cdae444389057fbae08043476",
-          "version": "1.0"
-        }
-      }
-    }
-  },
-  "customUrlLayer": {
-    "id": null,
-    "fields": []
-  },
-  "customURLParamName": null,
-  "customUrlParam": null,
   "helperServices": {
     "geometry": {
       "url": null
@@ -97,10 +50,8 @@
     "elevationSync": {
       "url": null
     },
-    "geocode": [
-      {
-        "url": null
-      }
-    ]
+    "geocode": [{
+      "url": null
+    }]
   }
 }
